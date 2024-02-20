@@ -43,7 +43,8 @@
     "validate-queries": "graphql validate --keepClientFields --noStrictFragments",
     "venia": "yarn workspace @magento/venia-concept",
     "watch:all": "node scripts/watch-all.js",
-    "watch:venia": "yarn venia run watch"
+    "watch:venia": "yarn venia run watch",
+    "rimraf": "./node_modules/rimraf/bin.js"
   },
   "dependencies": {
     "caniuse-lite": "~1.0.30001335"
